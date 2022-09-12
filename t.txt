@@ -1,0 +1,6 @@
+#Name,ID,Type,City,
+Alpha, 1234,Student, Bangalore
+Beta, 4567,Student, Chennai
+Gama,  2468, Student, Delhi
+
+Zeta, 1590, Student,Mumbai
