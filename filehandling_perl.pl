@@ -1,9 +1,9 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w 
 
 #my $start=time();
 
 use strict;
-use warnings 'all';
+
 print "-------------------------------------\n";
 print "ENTER THE RECORD YOU WANT TO SEARCH\n ";
 print "-------------------------------------\n";
@@ -34,7 +34,11 @@ next if /^\n/;
 $count++;
 }
  print "$count\n";
-=cut 
+=cut
+
+
+
+
 while (<FHR>)
 {
 	next if /^#/;
