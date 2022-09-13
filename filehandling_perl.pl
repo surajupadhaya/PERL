@@ -27,16 +27,6 @@ my $count2=0;
 open(FHR,"<",$file) or die $!;
 
 
-=begin comment
-while (<FHR>){
-next if /^#/;
-next if /^\n/;
-$count++;
-}
- print "$count\n";
-=cut
-
-
 
 
 while (<FHR>)
