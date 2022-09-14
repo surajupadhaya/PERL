@@ -13,21 +13,19 @@ if( $both_args == 1 )
 
 {
 
-	print "Enter Recordfile to search \n ";
-	exit;
+	print "Enter  Record\n ";
 
 }
 
 elsif ( $both_args <2 )
 {
 	print "Enter both File name record name\n";
-	exit;
 }
 
 elsif ( $both_args >2 ) {
 
 print "Provide only filename and recordname\n";
-exit;
+
 }
 
 =begin comment
@@ -87,7 +85,7 @@ while (<FHR>)
 
 if ($count == $count2)
 {
-print "You have entered  $recordname which is  NOT Present\n";
+print "Record Not Present\n";
 }
 close(FHR) or die "$!";
 
